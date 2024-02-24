@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/05/42/73/17/360_F_542731787_npIDENXs9NMkl1mtyHKj8De2WBL2vnFW.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif
+}
+.backToHome{
+    background-color: rgba(76, 72, 72, 0.709);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+ 
+}
+.backToHome a{
+    text-decoration: none;
+    color:black;
+   margin-top: 15px;
+}

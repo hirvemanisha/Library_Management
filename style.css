@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif
+}
+body{
+    background-image: url(https://st2.depositphotos.com/1518767/10655/i/450/depositphotos_106557848-stock-photo-students-desk-against-library-shelf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif
+}
+.main-container{
+    position: relative;
+    left: 32%;
+    border: 1px solid black;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
+    top: 100px;
+    width: 38%;
+    height: 150px;
+    border-radius: 5px;
+    
+    padding: 30px;
+}
+.main-container:hover{
+    box-shadow: 2px 2px 4px rgba(10, 10, 10, 0.6);
+}
+.input{
+    width: 97%;
+    height: 28px;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: none;
+}
+.userID{
+    display: flex;
+  
+}
+.uerPass{
+    display: flex;
+}
+label{
+    width: 100px;
+    margin-top: 23px;
+}
+.btn{
+    position: absolute;
+    left: 42%;  
+    top:70%;
+    width: 20%;
+    height: 39px;
+    border-radius: 25px;
+    border: none;
+}
+.btn:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(179, 204, 196);
+}
+h1{
+    position: relative;
+    left: 40%;
+    top:60px;
+    letter-spacing: 2px;
+
+}
+.nav-logo{
+    position: relative;
+    left: 50%;
+    top:30px;
+}
+#errorMessage{
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
